@@ -52,7 +52,7 @@ Open **index.html** in your browser or use **VS Code Live Server**.
 
 ---
 
-## 📱 Browser Support
+## Browser Support
 
 - Google Chrome
 - Microsoft Edge
@@ -61,14 +61,14 @@ Open **index.html** in your browser or use **VS Code Live Server**.
 
 ---
 
-## 📄 License
+## License
 
 This project is for portfolio purposes. Feel free to use it as inspiration, but please do not copy it directly.
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Tayyaba Ajmal**
 
-Frontend Developer passionate about building modern, responsive, and user-friendly web applications using **HTML5**, **CSS3**, **JavaScript**, and modern frontend technologies.
+Frontend Developer passionate about building modern, responsive, and user-friendly web applications using **HTML5**, **CSS3**, **JavaScript**, and modern frontend technologies. Currently learning about the react for the 
