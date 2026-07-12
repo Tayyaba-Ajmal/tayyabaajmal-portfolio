@@ -917,7 +917,7 @@ body.dark .skill-icon--a11y {
     background: var(--paper-soft);
     border: 1px solid var(--line);
     border-radius: var(--radius-lg);
-    padding: 10px;
+    padding: 30px;
 }
 
 .field {
