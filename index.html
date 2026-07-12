@@ -1,0 +1,756 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tayyaba Ajmal — Frontend Developer</title>
+    <meta
+      name="description"
+      content="Tayyaba Ajmal is a frontend developer building responsive, accessible web interfaces with HTML, CSS and JavaScript."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header>
+      <nav class="navbar">
+        <a href="#hero" class="logo">
+          <span class="logo-bracket">&lt;</span>Tayyaba<span
+            class="logo-bracket"
+            >/&gt;</span
+          >
+        </a>
+
+        <button
+          class="hamburger"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="menu">
+          <li>
+            <a href="#about" class="nav-link"
+              ><span class="nav-tag">01</span>About</a
+            >
+          </li>
+          <li>
+            <a href="#skills" class="nav-link"
+              ><span class="nav-tag">02</span>Skills</a
+            >
+          </li>
+          <li>
+            <a href="#projects" class="nav-link"
+              ><span class="nav-tag">03</span>Projects</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="nav-link"
+              ><span class="nav-tag">04</span>Contact</a
+            >
+          </li>
+        </ul>
+
+        <button id="theme-btn" aria-label="Toggle dark mode">
+          <svg
+            class="icon-moon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+          <svg
+            class="icon-sun"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <circle cx="12" cy="12" r="5" />
+            <path
+              d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"
+            />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <!--============= Hero Section  =============-->
+    <main id="main">
+      <section id="hero" class="hero">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">// frontend-developer.json</p>
+            <h1>Hi, I'm Tayyaba Ajmal.</h1>
+            <h2 class="role-line">
+              I build <span id="typing-text" class="typing"></span
+              ><span class="cursor">|</span>
+            </h2>
+            <p class="lede">
+              Frontend Developer focused on building fast, modern, responsive, 
+              and accessible web applications. I create clean, user-friendly 
+              interfaces using HTML5, CSS3, JavaScript (ES6+), Bootstrap, Tailwind 
+              CSS, and modern frontend technologies.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary">Hire me</a>
+              <a href="#projects" class="btn btn-ghost">View projects</a>
+              <a
+                href="https://linkedin.com/in/tayyaba-ajmal-0a0982185"
+                class="btn btn-link"
+                target="_blank"
+                rel="noopener"
+              >
+                LinkedIn ↗
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-editor" aria-hidden="true">
+            <div class="editor-titlebar">
+              <span class="dot dot-red"></span
+              ><span class="dot dot-yellow"></span
+              ><span class="dot dot-green"></span>
+              <span class="editor-filename">about-me.js</span>
+            </div>
+            <pre
+              class="editor-code"
+            ><code><span class="tok-kw">const</span> <span class="tok-var">developer</span> = {
+    <span class="tok-prop">name</span>: <span class="tok-str">"Tayyaba Ajmal"</span>,
+    <span class="tok-prop">role</span>: <span class="tok-str">"Frontend Developer"</span>,
+    <span class="tok-prop">stack</span>: [<span class="tok-str">"HTML5"</span>, <span class="tok-str">"CSS3"</span>, <span class="tok-str">"JS (ES6+)"</span>, <span class="tok-str">"Git & GitHub"</span>],
+    <span class="tok-prop">focus</span>: <span class="tok-str">"Responsive UI & Accessibility"</span>,
+};</code></pre>
+            <div class="editor-preview">
+              <img
+                src="Images/img1.png"
+                alt="Portrait of Tayyaba Ajmal"
+                class="profile-pic"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="scroll-cue" aria-hidden="true"><span></span></div>
+      </section>
+      <!--============= About =============-->
+      <section id="about" class="reveal">
+        <p class="eyebrow">// about</p>
+        <div class="about-grid">
+          <h2>A frontend developer who cares about the details.</h2>
+          <p class="section-lede">
+            I'm a Software Engineering graduate passionate about frontend 
+            development and creating modern, responsive, and accessible web 
+            applications. I build clean, user-friendly interfaces using HTML5, 
+            CSS3, JavaScript (ES6+), Bootstrap, and Tailwind CSS. I also have 
+            experience with ES Modules, Local Storage, REST API integration, 
+            Git/GitHub, and responsive web design. I'm continuously expanding 
+            my frontend development skills by learning React and modern web 
+            development practices.
+          </p>
+          <div class="about-actions">
+            <a
+              href="https://linkedin.com/in/tayyaba-ajmal-0a0982185"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-ghost btn-sm"
+              >LinkedIn ↗</a
+            >
+            <a
+              href="https://github.com/Tayyaba-Ajmal"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-ghost btn-sm"
+              >GitHub ↗</a
+            >
+          </div>
+        </div>
+        <div class="about-cards">
+          <div class="about-card">
+            <div class="about-card-icon">🎓</div>
+            <div>
+              <h4>Education</h4>
+              <p>Software Engineering Graduate</p>
+            </div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">💡</div>
+            <div>
+              <h4>Focus</h4>
+              <p>Frontend Development &amp; Modern Web Design</p>
+            </div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">🌍</div>
+            <div>
+              <h4>Location</h4>
+              <p>Pakistan · Open to Remote Opportunities</p>
+            </div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">🚀</div>
+            <div>
+              <h4>Currently</h4>
+              <p>Learning React · Available for hire</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--============= Skills =============-->
+      <section id="skills" class="reveal">
+        <p class="eyebrow">// skills</p>
+        <div class="skills-header">
+          <h2>What I work with</h2>
+          <p class="section-lede">
+            Core tools I build with every day — and what I'm learning next.
+          </p>
+        </div>
+
+        <div class="skill-grid">
+          <div class="skill" data-level="90">
+            <div class="skill-top">
+              <div class="skill-icon skill-icon--html">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"
+                  />
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h3>HTML</h3>
+                <span class="skill-level-label">Advanced</span>
+              </div>
+            </div>
+            <p>
+              Semantic, accessible markup that holds up for screen readers and
+              search engines alike.
+            </p>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" style="--pct: 90%"></div>
+            </div>
+          </div>
+
+          <div class="skill" data-level="85">
+            <div class="skill-top">
+              <div class="skill-icon skill-icon--css">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"
+                  />
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h3>CSS</h3>
+                <span class="skill-level-label">Advanced</span>
+              </div>
+            </div>
+            <p>
+              Responsive layout with Flexbox and Grid, plus animations that
+              respect reduced-motion settings.
+            </p>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" style="--pct: 85%"></div>
+            </div>
+          </div>
+
+          <div class="skill" data-level="75">
+            <div class="skill-top">
+              <div class="skill-icon skill-icon--js">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"
+                  />
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h3>JavaScript</h3>
+                <span class="skill-level-label">Proficient</span>
+              </div>
+            </div>
+            <p>
+              Dynamic content, DOM manipulation, and interactive features that
+              don't feel bolted on.
+            </p>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" style="--pct: 75%"></div>
+            </div>
+          </div>
+
+          <div class="skill" data-level="80">
+            <div class="skill-top">
+              <div class="skill-icon skill-icon--bootstrap">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 .87-.648 1.572-2.174 1.572zm.324 1.206H9.956v3.348h2.231c1.459 0 2.232-.646 2.232-1.68 0-1.032-.808-1.668-2.325-1.668zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.382-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.817-.944 2.226-2.268.408-1.319.463-2.937.42-4.186C2.603 3.636 3.616 2.436 4.985 2.436h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.41 1.324 1.1 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.195 1.869-1.108 1.869-2.177 0-1.489-1.136-2.478-2.928-2.478H8.709v9.863h4.054c1.928 0 3.064-1.013 3.064-2.663z"
+                  />
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h3>Bootstrap</h3>
+                <span class="skill-level-label">Proficient</span>
+              </div>
+            </div>
+            <p>
+              Pre-built responsive components and grid system to ship polished
+              UIs quickly and consistently.
+            </p>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" style="--pct: 80%"></div>
+            </div>
+          </div>
+
+          <div class="skill" data-level="70">
+            <div class="skill-top">
+              <div class="skill-icon skill-icon--tailwind">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z"
+                  />
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h3>Tailwind CSS</h3>
+                <span class="skill-level-label">Proficient</span>
+              </div>
+            </div>
+            <p>
+              Utility-first CSS for building custom designs without fighting
+              framework opinions.
+            </p>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" style="--pct: 70%"></div>
+            </div>
+          </div>
+
+          <div class="skill" data-level="70">
+            <div class="skill-top">
+              <div class="skill-icon skill-icon--git">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.721.72.721 1.884 0 2.604-.719.719-1.881.719-2.6 0-.539-.541-.674-1.337-.404-1.996L12.86 8.955v6.525c.176.086.342.203.488.348.713.721.713 1.883 0 2.6-.719.721-1.889.721-2.609 0-.719-.719-.719-1.879 0-2.598.182-.18.387-.316.605-.406V8.835c-.217-.091-.424-.222-.6-.401-.545-.545-.676-1.342-.396-2.009L7.636 3.7.45 10.881c-.6.605-.6 1.584 0 2.189l10.48 10.477c.604.604 1.582.604 2.186 0l10.43-10.43c.605-.603.605-1.582 0-2.187"
+                  />
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h3>Git &amp; GitHub</h3>
+                <span class="skill-level-label">Proficient</span>
+              </div>
+            </div>
+            <p>
+              Version control, branching strategy, and collaborative workflows
+              that keep history clean.
+            </p>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" style="--pct: 70%"></div>
+            </div>
+          </div>
+
+          <div class="skill" data-level="80">
+            <div class="skill-top">
+              <div class="skill-icon skill-icon--a11y">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm0 6c1.1 0 2 .9 2 2v5h1v5h-2v-4h-2v4H9v-5h1v-5c0-1.1.9-2 2-2zm-4.5.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5S9.83 7 9 7s-1.5.67-1.5 1.5zm9 0c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5S16.17 7 15 7s-1.5.67-1.5 1.5z"
+                  />
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h3>Accessibility</h3>
+                <span class="skill-level-label">Proficient</span>
+              </div>
+            </div>
+            <p>
+              Keyboard navigation, visible focus states, and contrast that works
+              for everyone.
+            </p>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" style="--pct: 80%"></div>
+            </div>
+          </div>
+          <div class="skill skill--learning" data-level="25">
+            <div class="skill-top">
+              <div class="skill-icon skill-icon--react">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38-.318-.184-.688-.277-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44-.96-.236-2.006-.417-3.107-.534-.66-.905-1.345-1.727-2.035-2.447 1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442-1.107.117-2.154.298-3.113.538-.112-.49-.195-.964-.254-1.42-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87-.728.063-1.466.098-2.21.098-.74 0-1.477-.035-2.202-.093-.406-.582-.802-1.204-1.183-1.86-.372-.64-.71-1.29-1.018-1.946.303-.657.646-1.313 1.013-1.954.38-.66.773-1.286 1.18-1.868.728-.064 1.466-.098 2.21-.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933-.2-.39-.41-.783-.64-1.174-.225-.392-.465-.774-.705-1.146zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493-.28-.958-.646-1.956-1.1-2.98.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98-.45 1.017-.812 2.01-1.086 2.964-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.15-1.315.283-2.015.386.24-.375.48-.762.705-1.158.225-.39.435-.782.634-1.176zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143-.695-.102-1.365-.23-2.006-.386.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295-.22-.005-.406-.05-.553-.132-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z"
+                  />
+                </svg>
+              </div>
+              <div class="skill-meta">
+                <h3>React</h3>
+                <span class="skill-badge-learning">Currently learning</span>
+              </div>
+            </div>
+            <p>
+              Exploring components, props, state and hooks — building small
+              projects to solidify the fundamentals.
+            </p>
+            <div class="skill-bar-wrap">
+              <div
+                class="skill-bar skill-bar--learning"
+                style="--pct: 25%"
+              ></div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!--============= Projects =============-->
+      <section id="projects" class="reveal">
+        <p class="eyebrow">// projects</p>
+        <h2>Selected work</h2>
+        <div class="project-grid">
+          <article class="project">
+            <div class="project-thumb">
+              <img
+                src="Images/gusto 1.png"
+                alt="Screenshot of the restaurant website project"
+              />
+            </div>
+            <div class="project-body">
+              <h3>Restaurant Website</h3>
+              <p>
+                A premium, multi-page restaurant website — built with HTML,
+                Tailwind CSS, and JavaScript — featuring an elegant UI,
+                interactive menu showcase, online table reservations, smooth
+                animations, and a fully responsive dining experience across all
+                devices.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://www.ilgustocafe.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Live demo ↗</a
+                >
+                <!-- <a href="https://github.com/gusto/portfolio" target="_blank" rel="noopener noreferrer">Code ↗</a> -->
+              </div>
+            </div>
+          </article>
+          
+          <article class="project">
+            <div class="project-thumb">
+              <img
+                src="Images/AI Mail Generator.png"
+                alt="Screenshot of the AI mail generator project"
+              />
+            </div>
+            <div class="project-body">
+              <h3>AI Mail Generator</h3>
+              <p>
+                A premium, chat-based AI email assistant — built with HTML5,
+                CSS3, Bootstrap 5, Vanilla JavaScript (ES6), and any
+                OpenAI-compatible Chat Completions API — that drafts, replies
+                to, rewrites, improves, and summarizes emails in real time
+                through an intuitive, responsive interface
+              </p>
+              <div class="project-links">
+                <a href="http://aimail-generator.netlify.app/" target="_blank" rel="noopener noreferrer">Live demo ↗</a>
+                <a href="https://github.com/Tayyaba-Ajmal/ai-email-generator.git" target="_blank" rel="noopener noreferrer">Code ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-thumb">
+              <img
+                src="Images/Finance Tracker.png"
+                alt="Screenshot of the finance tracker project"
+              />
+            </div>
+            <div class="project-body">
+              <h3>Finance Tracker</h3>
+              <p>
+                A premium, dashboard-based personal finance tracker — built with
+                HTML5, CSS3, Vanilla JavaScript (ES6), Chart.js, and Local
+                Storage — that enables users to track income, expenses, budgets,
+                and spending trends through interactive data visualizations and
+                a modern, responsive interface.
+              </p>
+              <div class="project-links">
+                <a href="https://cashtracker-finance.netlify.app" target="_blank" rel="noopener noreferrer">Live demo ↗</a>
+                <a href="https://github.com/Tayyaba-Ajmal/finance-tracker.git" target="_blank" rel="noopener noreferrer">Code ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-thumb">
+              <img
+                src="Images/Movie Browser.png"
+                alt="Screenshot of the movie browser project"
+              />
+            </div>
+            <div class="project-body">
+              <h3>Movie Browser</h3>
+              <p>
+                A premium, interactive movie browser — built with HTML5, CSS3,
+                and Vanilla JavaScript (ES6) — that lets users discover, browse,
+                filter, sort, and favorite movies through a cinematic,
+                responsive interface with dynamic client-side rendering.
+              </p>
+              <div class="project-links">
+                <a href="https://moviestreamingui.netlify.app/" target="_blank" rel="noopener noreferrer">Live demo ↗</a>
+                <a href="https://github.com/Tayyaba-Ajmal/movie-browser.git" target="_blank" rel="noopener noreferrer">Code ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="project-thumb">
+              <img
+                src="Images/Landing Page.png"
+                alt="Screenshot of the restaurant landing page project"
+              />
+            </div>
+            <div class="project-body">
+              <h3>Restaurant Landing Page</h3>
+              <p>
+                A premium, restaurant landing page — built with HTML5, CSS3, and
+                Vanilla JavaScript — that showcases signature dishes, chef
+                specials, customer testimonials, and table reservations through
+                elegant animations, glassmorphism effects, and a fully
+                responsive dining experience.
+              </p>
+              <div class="project-links">
+                <a href="https://foodizfirelandingpage.netlify.app/" target="_blank" rel="noopener noreferrer">Live demo ↗</a>
+                <a href="https://github.com/Tayyaba-Ajmal/landing-page.git" target="_blank" rel="noopener noreferrer">Code ↗</a>
+              </div>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project-thumb">
+              <img
+                src="Images/Weather App.png"
+                alt="Screenshot of the weather app project"
+              />
+            </div>
+            <div class="project-body">
+              <h3>Weather App</h3>
+              <p>
+                A premium, weather dashboard — built with HTML5, CSS3, Vanilla
+                JavaScript (ES2020), and the OpenWeatherMap API — that delivers
+                real-time weather conditions, 5-day forecasts, geolocation-based
+                search, and dynamic weather visualizations through a modern,
+                fully responsive interface.
+              </p>
+              <div class="project-links">
+                <a href="https://forecastforweather.netlify.app/" target="_blank" rel="noopener noreferrer">Live demo ↗</a>
+                <a href="https://github.com/Tayyaba-Ajmal/weather-app.git" target="_blank" rel="noopener noreferrer">Code ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--============= Contact =============-->
+      <section id="contact" class="reveal">
+        <p class="eyebrow">// contact</p>
+        <div class="contact-grid">
+          <div class="contact-copy">
+            <h2>Let's build something.</h2>
+            <p>
+              Have a role, a project, or just a question? My inbox is open — I
+              usually reply within a day.
+            </p>
+
+            <div class="contact-direct">
+              <a href="tel:+923179202708" class="contact-item">
+                <div class="contact-item-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    width="18"
+                    height="18"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.44 2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.82a16 16 0 0 0 6.29 6.29l1.42-1.34a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"
+                    />
+                  </svg>
+                </div>
+                <div class="contact-item-body">
+                  <span class="contact-item-label">Phone</span>
+                  <span class="contact-item-value">+92 3179202708</span>
+                </div>
+                <span class="contact-item-arrow">↗</span>
+              </a>
+
+              <a href="mailto:tayyabaajmal114@gmail.com" class="contact-item">
+                <div class="contact-item-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    width="18"
+                    height="18"
+                  >
+                    <path
+                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    />
+                    <polyline points="22,6 12,13 2,6" />
+                  </svg>
+                </div>
+                <div class="contact-item-body">
+                  <span class="contact-item-label">Email</span>
+                  <span class="contact-item-value">tayyabaajmal114@gmail.com</span>
+                </div>
+                <span class="contact-item-arrow">↗</span>
+              </a>
+
+              <a
+                href="https://linkedin.com/in/tayyaba-ajmal-0a0982185"
+                target="_blank"
+                rel="noopener"
+                class="contact-item"
+              >
+                <div class="contact-item-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="18"
+                    height="18"
+                  >
+                    <path
+                      d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                    />
+                  </svg>
+                </div>
+                <div class="contact-item-body">
+                  <span class="contact-item-label">LinkedIn</span>
+                  <span class="contact-item-value"
+                    >tayyaba-ajmal-0a0982185</span
+                  >
+                </div>
+                <span class="contact-item-arrow">↗</span>
+              </a>
+
+              <a
+                href="https://github.com/Tayyaba-Ajmal"
+                target="_blank"
+                rel="noopener"
+                class="contact-item"
+              >
+                <div class="contact-item-icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    width="18"
+                    height="18"
+                  >
+                    <path
+                      d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                    />
+                  </svg>
+                </div>
+                <div class="contact-item-body">
+                  <span class="contact-item-label">GitHub</span>
+                  <span class="contact-item-value"
+                    >github.com/Tayyaba-Ajmal</span
+                  >
+                </div>
+                <span class="contact-item-arrow">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <form
+            class="form"
+            id="contact-form"
+            action="https://formspree.io/f/YOUR_FORM_ID"
+            method="POST"
+          >
+            <!-- Honeypot: Formspree recognizes "_gotcha" as its built-in spam trap -->
+            <div class="field field-trap" aria-hidden="true">
+              <label for="company">Company</label>
+              <input
+                type="text"
+                id="company"
+                name="_gotcha"
+                tabindex="-1"
+                autocomplete="off"
+              />
+            </div>
+
+            <input
+              type="hidden"
+              name="_subject"
+              value="New message from portfolio site"
+            />
+
+            <label class="field">
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label class="field">
+              <span>Email</span>
+              <input
+                type="email"
+                name="email"
+                placeholder="you@email.com"
+                required
+              />
+            </label>
+            <label class="field">
+              <span>Message</span>
+              <textarea
+                name="message"
+                placeholder="Tell me about your project or role…"
+                required
+              ></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send message</button>
+            <p class="form-note" id="form-note" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--============= Footer =============-->
+
+    <footer>
+      <div class="footer-inner">
+        <a href="#hero" class="logo"
+          ><span class="logo-bracket">&lt;</span>Tayyaba<span
+            class="logo-bracket"
+            >/&gt;</span
+          ></a
+        >
+        <p>Frontend Developer</p>
+        <div class="footer-links">
+          <a
+            href="https://github.com/Tayyaba-Ajmal"
+            target="_blank"
+            rel="noopener"
+            >GitHub</a
+          >
+          <a
+            href="https://linkedin.com/in/tayyaba-ajmal-0a0982185"
+            target="_blank"
+            rel="noopener"
+            >LinkedIn</a
+          >
+        </div>
+        <p class="footer-note">
+          &copy; <span id="year"></span> Tayyaba Ajmal. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
