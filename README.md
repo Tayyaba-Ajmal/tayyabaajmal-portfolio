@@ -1,23 +1,23 @@
-# 💼 Tayyaba Ajmal — Frontend Developer Portfolio
+# Tayyaba Ajmal — Frontend Developer Portfolio
 
 A modern, responsive portfolio website built with **HTML5**, **CSS3**, and **Vanilla JavaScript**. Showcasing my projects, skills, and experience through a clean, interactive, and fully responsive design.
 
 ---
 
-## ✨ Features
+## Features
 
-- 📱 Fully responsive layout
-- 🌙 Dark & Light mode
-- ⌨️ Typing animation
-- 📊 Animated skill progress bars
-- 🚀 Project showcase
-- 📧 Contact form
-- ♿ Accessible and keyboard-friendly
-- ⚡ Smooth scrolling and animations
+- Fully responsive layout
+- Dark & Light mode
+- Typing animation
+- Animated skill progress bars
+- Project showcase
+- Contact form
+- Accessible and keyboard-friendly
+- Smooth scrolling and animations
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - HTML5
 - CSS3
@@ -27,7 +27,7 @@ A modern, responsive portfolio website built with **HTML5**, **CSS3**, and **Van
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 portfolio/
@@ -40,12 +40,12 @@ portfolio/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/Tayyaba-Ajmal/portfolio.git
 ```
 
 Open **index.html** in your browser or use **VS Code Live Server**.
