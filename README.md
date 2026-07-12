@@ -71,4 +71,4 @@ This project is for portfolio purposes. Feel free to use it as inspiration, but 
 
 **Tayyaba Ajmal**
 
-Frontend Developer passionate about building modern, responsive, and user-friendly web applications using **HTML5**, **CSS3**, **JavaScript**, and modern frontend technologies. Currently learning about the react for the 
+Frontend Developer passionate about building modern, responsive, and user-friendly web applications using HTML5, CSS3, JavaScript, Bootstrap, and Tailwind CSS. Currently learning React and continuously improving my frontend development skills.
